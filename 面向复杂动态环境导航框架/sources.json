@@ -1,0 +1,155 @@
+{
+  "source_root": "D:\\大论文仓库\\ren_latex",
+  "source_hashes": {
+    "D:\\大论文仓库\\ren_latex\\main-thesis.tex": "f8fbc8bbd6e9fc766a47a16d3fff7982dad5421d946c5d2f2a6966b7b5fddc92",
+    "D:\\大论文仓库\\ren_latex\\chapter\\chap03.tex": "26430727ba5b3a1077c9fda55ff9bcd35b897505ff913cd1bd48879009fbe914",
+    "D:\\大论文仓库\\ren_latex\\chapter\\chap04.tex": "46e4396ee626cd5c93534a298635748a3601d8723258397195709bb5fd9903a8",
+    "D:\\大论文仓库\\ren_latex\\chapter\\chap05.tex": "68a0f0cf929b4c73943e3c9d30b2b4218df5f8e7ba0ed4fb4aeade2930462305",
+    "D:\\大论文仓库\\ren_latex\\pic\\激光惯性里程计系统架构.pdf": "750d7c2e7ecb846b20973c9eaee1a820e5e791954c46d33e9d2a38888b77dfb8",
+    "D:\\大论文仓库\\ren_latex\\pic\\预建地图定位框架.pdf": "f06fe55fc4e87c4d4a70ab28165ce20babf1cd03d4ff4a2a8ea9f102c84808b8",
+    "D:\\大论文仓库\\ren_latex\\pic\\两阶段ICP初始对齐.pdf": "8e357c539c0ddfb3db554d19408648b1d39177a9dfc58170566d4541d72cba12",
+    "D:\\大论文仓库\\ren_latex\\pic\\实验_轨迹对比图.pdf": "ad4beaba2a1b31b13bd33e08e33989068cfda355cc7f91cf0216b245ae46c45f",
+    "D:\\大论文仓库\\ren_latex\\pic\\实验_定位精度对比图.pdf": "dbb8c72f6750c359798fa9ad19586ae74b35d4b70c9a637d2ac05e4949f1b3e1",
+    "D:\\大论文仓库\\ren_latex\\pic\\聚类效果对比示意图.pdf": "dfcfa7d364a8774f6409ab0ec2f449c4c52877f00eadbc7a1635885ec3f2ce44",
+    "D:\\大论文仓库\\ren_latex\\pic\\检测器检测示意图.png": "e5d8a1d2d54700012fe6e0446600477c094ae015727b27a56aaf3f5f373a14a1",
+    "D:\\大论文仓库\\ren_latex\\pic\\去除无效点云示意图.pdf": "75162b47b3f773a06df9a84ede8a000e0141abd94764394ebca66480cb3c28c0",
+    "D:\\大论文仓库\\ren_latex\\pic\\学习增强MPC局部规划架构图.pdf": "6f9a0b2a5627b4b6e469349601618be3c463d69888e92159e8631b9b3d071ac9",
+    "D:\\大论文仓库\\ren_latex\\pic\\包络约束与点级表示对比图.pdf": "8ccec997bab78082442eac784213575f848718e1091a6f7ae7719e76b525bf0a",
+    "D:\\大论文仓库\\ren_latex\\pic\\点级神经网络编码结构.pdf": "9cdfe672a0c34d94b338241a0aba0bd725b7c45678ac9a196fe0d5aabaa83e1f",
+    "D:\\大论文仓库\\ren_latex\\pic\\学习增强MPC滚动优化流程图.pdf": "f2a3c6403221df73e8f925184a115306c90c06589d1d6ee985c27314e8526028",
+    "D:\\大论文仓库\\ren_latex\\pic\\ch05_traj_S1_p1.pdf": "9e396e3cad1858063fcad8f4451aeb8ca397d1c64a8e7d9ce5cb0539326d734f",
+    "D:\\大论文仓库\\ren_latex\\pic\\ch05_traj_S2_p2.pdf": "2d996c2da35721313cef05aa3363e65cffd2b46bed96cc70645d05053daa3128",
+    "D:\\大论文仓库\\ren_latex\\pic\\ch05_plan_time_box.pdf": "c86be3987d1a1990f21685e720f4ce82c06a1fc8ff14237ab1506f77d1496dc9",
+    "D:\\大论文仓库\\ren_latex\\pic\\ch05_v550_robot_model.pdf": "41f93adb2d2917d6210c3c949fa30c08740d1c45079fda06d8ecb6d4e6bfba0c"
+  },
+  "figures": {
+    "lio": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\激光惯性里程计系统架构.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\lio.png",
+      "size": [
+        1821,
+        482
+      ]
+    },
+    "map_localization": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\预建地图定位框架.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\map_localization.png",
+      "size": [
+        2469,
+        1498
+      ]
+    },
+    "icp": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\两阶段ICP初始对齐.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\icp.png",
+      "size": [
+        2387,
+        700
+      ]
+    },
+    "loc_trajectory": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\实验_轨迹对比图.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\loc_trajectory.png",
+      "size": [
+        2501,
+        725
+      ]
+    },
+    "loc_accuracy": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\实验_定位精度对比图.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\loc_accuracy.png",
+      "size": [
+        1951,
+        838
+      ]
+    },
+    "clustering": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\聚类效果对比示意图.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\clustering.png",
+      "size": [
+        1245,
+        413
+      ]
+    },
+    "detector": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\检测器检测示意图.png",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\detector.png",
+      "size": [
+        1300,
+        900
+      ]
+    },
+    "valid_points": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\去除无效点云示意图.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\valid_points.png",
+      "size": [
+        1069,
+        487
+      ]
+    },
+    "planner": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\学习增强MPC局部规划架构图.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\planner.png",
+      "size": [
+        2447,
+        1135
+      ]
+    },
+    "envelope": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\包络约束与点级表示对比图.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\envelope.png",
+      "size": [
+        1180,
+        446
+      ]
+    },
+    "encoder": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\点级神经网络编码结构.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\encoder.png",
+      "size": [
+        2228,
+        606
+      ]
+    },
+    "rolling": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\学习增强MPC滚动优化流程图.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\rolling.png",
+      "size": [
+        2464,
+        1070
+      ]
+    },
+    "s1_trajectory": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\ch05_traj_S1_p1.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\s1_trajectory.png",
+      "size": [
+        1152,
+        1080
+      ]
+    },
+    "s2_trajectory": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\ch05_traj_S2_p2.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\s2_trajectory.png",
+      "size": [
+        1152,
+        1080
+      ]
+    },
+    "planning_time": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\ch05_plan_time_box.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\planning_time.png",
+      "size": [
+        1440,
+        720
+      ]
+    },
+    "robot": {
+      "source": "D:\\大论文仓库\\ren_latex\\pic\\ch05_v550_robot_model.pdf",
+      "file": "C:\\Users\\19514\\Desktop\\简历补充\\论文核心算法展示\\_work\\figures\\robot.png",
+      "size": [
+        3138,
+        2640
+      ]
+    }
+  }
+}

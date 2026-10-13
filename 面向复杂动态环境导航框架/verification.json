@@ -1,0 +1,182 @@
+{
+  "console_errors": [],
+  "network_requests": [],
+  "slides": [
+    {
+      "title": "复杂动态环境下机器人导航系统设计与应用",
+      "main_height": 933,
+      "escaped": [],
+      "images": [],
+      "page": 1
+    },
+    {
+      "title": "将FAST-LIO2接入预建地图，约束全局漂移",
+      "main_height": 794,
+      "escaped": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 1040,
+          "height": 608,
+          "fit": "contain"
+        }
+      ],
+      "page": 2
+    },
+    {
+      "title": "三类场景下，地图约束降低轨迹误差",
+      "main_height": 794,
+      "escaped": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 973,
+          "height": 378,
+          "fit": "contain"
+        }
+      ],
+      "page": 3
+    },
+    {
+      "title": "双路非学习检测，用空间一致性融合包围盒",
+      "main_height": 794,
+      "escaped": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 820,
+          "height": 475,
+          "fit": "contain"
+        },
+        {
+          "loaded": true,
+          "width": 820,
+          "height": 172,
+          "fit": "contain"
+        }
+      ],
+      "page": 4
+    },
+    {
+      "title": "关联运动状态，输出规划可用的局部环境",
+      "main_height": 794,
+      "escaped": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 820,
+          "height": 222,
+          "fit": "contain"
+        }
+      ],
+      "page": 5
+    },
+    {
+      "title": "用点级几何描述障碍，以MPC生成控制",
+      "main_height": 794,
+      "escaped": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 1040,
+          "height": 541,
+          "fit": "contain"
+        },
+        {
+          "loaded": true,
+          "width": 600,
+          "height": 160,
+          "fit": "contain"
+        }
+      ],
+      "page": 6
+    },
+    {
+      "title": "共享点级网络，离线学习机器人轮廓几何",
+      "main_height": 794,
+      "escaped": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 1698,
+          "height": 195,
+          "fit": "contain"
+        }
+      ],
+      "page": 7
+    },
+    {
+      "title": "几何约束逐次更新，首项控制闭环执行",
+      "main_height": 794,
+      "escaped": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 1040,
+          "height": 561,
+          "fit": "contain"
+        }
+      ],
+      "page": 8
+    },
+    {
+      "title": "180次统一协议试验，对比任务完成性与轨迹质量",
+      "main_height": 794,
+      "escaped": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 543,
+          "height": 530,
+          "fit": "contain"
+        }
+      ],
+      "page": 9
+    },
+    {
+      "title": "规划计算满足已记录周期预算，保留实验适用范围",
+      "main_height": 794,
+      "escaped": [],
+      "images": [
+        {
+          "loaded": true,
+          "width": 820,
+          "height": 272,
+          "fit": "contain"
+        }
+      ],
+      "page": 10
+    }
+  ],
+  "checks": {
+    "slide_count": 10,
+    "keyboard_next": true,
+    "button_next": true,
+    "select_jump": true,
+    "chapter_jump": true,
+    "zoom_open": true,
+    "zoom_blocks_navigation": true,
+    "zoom_close": true,
+    "source_modal": true,
+    "overview_count": 10,
+    "overview_jump": true,
+    "notes_open": true,
+    "laptop": {
+      "canvas_visible": true,
+      "body_overflow": false,
+      "tools_height": 62
+    },
+    "mobile_landscape": {
+      "canvas_visible": true,
+      "body_overflow": false,
+      "tools_height": 62
+    },
+    "mobile_portrait": {
+      "canvas_visible": true,
+      "body_overflow": false,
+      "tools_height": 98
+    },
+    "source_files_unchanged": true
+  },
+  "changed_sources": []
+}

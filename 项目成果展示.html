@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Portal layout adapted from html-ppt's dir-key-nav-minimal and image-gallery templates. -->
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>项目展示 · 任佳乐</title>
+<meta name="description" content="任佳乐的机器人项目经历：M20巡检规划、自主充电、DR02楼梯高度图、Go2强化学习导航。">
+<link rel="stylesheet" href="assets/base.css"><link rel="stylesheet" href="assets/engineering.css"><link rel="stylesheet" href="assets/portal.css">
+</head>
+<body class="portal">
+<main class="portal-shell" id="portal-main">
+  <header class="topbar">
+    <a class="brand" href="项目展示.html"><span class="monogram" aria-hidden="true">RJ</span><span>任佳乐 <span style="font-weight:400;color:var(--text-3)">/ 项目展示</span></span></a>
+    <nav class="toplinks" aria-label="主导航"><a href="#projects" class="desktop">项目经历</a><a href="任佳乐_简历.pdf" target="_blank" rel="noopener">查看简历 ↗</a><button class="btn" id="show-help" style="padding:6px 10px">使用说明</button></nav>
+  </header>
+  <section class="hero" aria-labelledby="hero-title">
+    <div>
+      <p class="eyebrow">ROBOTICS / PERCEPTION / NAVIGATION</p>
+      <h1 id="hero-title">从地形感知，<br>到<span>自主导航与任务闭环。</span></h1>
+      <p class="intro">四段项目经历，覆盖机器人感知、规划控制与强化学习。<br>以系统框架、关键思路和运行效果，补充简历中的工程实践。</p>
+      <div class="who"><b>任佳乐</b><span>杭州电子科技大学 · 控制工程硕士</span><span>2027 届</span></div>
+      <div class="action-row"><button class="btn primary" id="start-presentation">按当前顺序演示 <span aria-hidden="true">↗</span></button><a class="btn" href="#projects">选择项目 ↓</a></div>
+    </div>
+    <div class="hero-visual">
+      <figure class="img-frame"><img src="assets/media/m20-avoid.jpg" alt="四足机器人巡检项目的现场演示帧"></figure>
+      <span class="cap-label">PROJECTS IN PRACTICE</span>
+      <div class="visual-footer"><span><i class="status-dot" aria-hidden="true"></i>现场运行与仿真验证</span><span>4 个项目 / 16 页展示</span></div>
+    </div>
+  </section>
+  <div class="skill-strip" aria-label="项目能力方向">
+    <div><b>地形感知</b><span>点云融合 · 运动补偿 · 高度图</span></div>
+    <div><b>规划与决策</b><span>局部避障 · 动态风险 · 状态机</span></div>
+    <div><b>闭环控制</b><span>视觉伺服 · 对接复检 · 物理反馈</span></div>
+    <div><b>学习与验证</b><span>PPO-CBF · 仿真 · 策略训练</span></div>
+  </div>
+  <section id="projects" aria-labelledby="projects-title">
+    <div class="section-head"><div><h2 id="projects-title">项目经历</h2><p>选择单个项目浏览，或按当前顺序连续演示。</p></div><button class="btn" id="edit-order" aria-pressed="false">调整展示顺序 ↕</button></div>
+    <div class="edit-bar" id="edit-bar" hidden><span>拖动项目卡片，或用 ↑ ↓ 移动。排序自动保存到本浏览器。</span><div style="display:flex;gap:8px"><button class="btn" id="reset-order">恢复默认</button><button class="btn" id="export-order">导出排序文件</button><button class="btn" id="finish-order">完成</button></div></div>
+    <div class="project-grid" id="project-grid"></div>
+    <noscript><p>请启用 JavaScript 使用总览与排序功能，也可直接打开子展示：</p><p><a href="M20巡检/index.html">M20巡检</a> / <a href="自动回充/index.html">自动回充</a> / <a href="DR02高度图/index.html">DR02高度图</a> / <a href="Go2强化学习导航/index.html">Go2强化学习导航</a></p></noscript>
+  </section>
+  <footer class="portal-footer"><span>任佳乐 · 决策规划 / 强化学习 / SLAM</span><span><a href="mailto:1951456717@qq.com">1951456717@qq.com</a> · <a href="tel:19857432054">19857432054</a></span></footer>
+</main>
+<section class="viewer" id="viewer" hidden aria-label="项目演示">
+  <div class="viewer-bar"><div class="viewer-title"><button class="btn" id="close-viewer">← 总览</button><b id="viewer-project-title"></b></div><div class="viewer-tabs" id="viewer-tabs" aria-label="选择项目"></div><div style="display:flex;gap:7px"><a class="btn extra-viewer" id="open-independent" target="_blank" rel="noopener">独立打开 ↗</a><button class="btn" id="viewer-fullscreen">全屏 F</button></div></div>
+  <iframe id="project-frame" title="项目介绍展示" allow="fullscreen" allowfullscreen></iframe>
+  <div class="viewer-bottom"><div class="nav"><button class="btn" id="previous">← 上一页</button><select id="viewer-slide-select" aria-label="跳转项目页面"></select><button class="btn" id="next">下一页 →</button></div><span id="viewer-page-count" aria-live="polite"></span><div class="nav"><span class="hint">← → 翻页 · Esc 返回</span><button class="btn" id="viewer-notes">讲解提示 N</button><button class="btn extra-viewer" id="viewer-presenter">演讲者 S</button></div></div>
+  <div class="viewer-progress" aria-hidden="true"><span id="viewer-progress"></span></div>
+</section>
+<dialog class="help-dialog" id="help-dialog"><h3>浏览与演示</h3><p>点击项目卡片可在总览内浏览；“独立打开”可单独打开对应子 HTML。连续演示会按当前排序串联四个项目，支持 <strong>← →</strong> 翻页、<strong>F</strong> 全屏、<strong>N</strong> 讲解提示和 <strong>S</strong> 演讲者窗口。讲解提示默认隐藏。</p><p>点击“调整展示顺序”后，可以拖拽或使用上下按钮。排序保存在本浏览器。需要让另一台电脑采用同样顺序时，点击“导出排序文件”，用下载的 <code>展示顺序.js</code> 替换本目录同名文件；也可以直接编辑该文件。</p><p>文件均为本地素材。分享时保留整个“项目展示”文件夹及目录结构，双击 <code>项目展示.html</code> 即可浏览。建议使用 Chrome 或 Edge。</p><form method="dialog"><button class="btn primary">知道了</button></form></dialog>
+<div class="toast" id="toast" role="status" hidden></div>
+<script src="展示顺序.js"></script><script src="assets/projects.js"></script><script src="assets/portal.js"></script>
+</body>
+</html>

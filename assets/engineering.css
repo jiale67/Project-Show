@@ -1,0 +1,13 @@
+/* html-ppt theme: a local engineering palette, no network dependencies. */
+:root {
+  --bg:#f7f9fc;--bg-soft:#eef3f9;--surface:#fff;--surface-2:#edf2f8;
+  --border:#d9e2ee;--border-strong:#b9c9dd;--text-1:#182c48;--text-2:#465d78;--text-3:#647892;
+  --accent:#255baf;--accent-2:#157c83;--accent-3:#9a650e;--accent-ink:#fff;
+  --good:#167b66;--warn:#98620d;--bad:#af4747;
+  --grad:linear-gradient(135deg,#255baf,#157c83);--grad-soft:linear-gradient(135deg,#e8effb,#eff6f9);
+  --radius:18px;--radius-sm:10px;--radius-lg:26px;
+  --shadow:0 12px 32px #182c4809;--shadow-lg:0 20px 54px #182c4814;
+  --font-sans:'Microsoft YaHei','PingFang SC','Segoe UI',sans-serif;
+  --font-display:var(--font-sans);--font-mono:'Cascadia Code','Consolas',monospace;
+}
+body{background:var(--bg)}
